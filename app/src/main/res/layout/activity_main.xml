@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.fme.discover_istanbul.MainActivity">
+
+    <Button
+
+        android:layout_alignParentTop="true"
+        android:id="@+id/btnSport"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="onClick_Btn"
+        android:text="SPORT"/>
+    <Button
+
+        android:layout_toRightOf="@+id/btnSport"
+        android:id="@+id/btnMusic"
+        android:onClick="onClick_Btn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="MUSIC"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnSport"
+        android:onClick="onClick_Btn"
+        android:id="@+id/btnArt"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="ART"
+        />
+    <Button
+        android:id="@+id/btnParty"
+        android:text="PARTY"
+        android:layout_width="150dp"
+        android:onClick="onClick_Btn"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnMusic"
+        android:layout_toRightOf="@+id/btnArt"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>
